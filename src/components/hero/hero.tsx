@@ -57,7 +57,7 @@ const Hero = ({ blogs }: HeroProps) => {
                 <Typography
                   sx={{ fontSize: { xs: "18px", md: "25px" }, color: "grey" }}
                 >
-                  {item.excerpr}
+                  {item.excerpt}
                 </Typography>
                 <Box
                   sx={{

@@ -94,12 +94,12 @@ const Navbar = ({ window }: Props) => {
               gap: "5px",
               flexGrow: 1,
               display: { xs: "none", sm: "flex" },
+
             }}
           >
-            <Image style={{marginLeft:"20px"}} width={55} height={50} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/BYD_Company%2C_Ltd._-_Logo.svg/1200px-BYD_Company%2C_Ltd._-_Logo.svg.png"} alt="logo" />
-            {/* <Typography variant="h6" component="div">
-              BYD
-            </Typography> */}
+            <Box sx={{ cursor: "pointer" }} onClick={() => router.push(`/`)}>
+              <Image style={{ marginLeft: "20px" }} width={55} height={50} src={"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/BYD_Company%2C_Ltd._-_Logo.svg/1200px-BYD_Company%2C_Ltd._-_Logo.svg.png"} alt="logo" />
+            </Box>
           </Box>
 
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
